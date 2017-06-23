@@ -93,5 +93,5 @@ class Classify(Mode):
 		return result
 
 	def output(self, result):
-		print 'Probability that document is %s rather than %s is %1.2f' % (self.doctype1, self.doctype2, result)
-		#print '%1.2f' % (result)
+		#print 'Probability that document is %s rather than %s is %1.2f' % (self.doctype1, self.doctype2, result)
+		return '%1.2f' % (result)
