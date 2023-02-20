@@ -2,6 +2,7 @@ aclImdb/
 .project
 *.txt
 *.pdf
+*.pyc
 
 *.zip
 
